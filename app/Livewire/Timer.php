@@ -1,6 +1,6 @@
 <?php
 
-namespace App\Http\Livewire;
+namespace App\Livewire;
 
 use Livewire\Component;
 
@@ -27,7 +27,7 @@ class Timer extends Component
     public function render()
     {
 
-        
+        $this->updateTimer();
 
         return view('livewire.timer');
     }
