@@ -1,4 +1,4 @@
-<div class="flex items-center justify-center min-h-screen bg-gradient-to-r from-purple-500 to-pink-500 text-white">
+<div wire:poll class="flex items-center justify-center min-h-screen bg-gradient-to-r from-purple-500 to-pink-500 text-white">
     <div class="text-center">
         <h1 class="text-4xl font-extrabold mb-6 tracking-wider uppercase">
             🎉 New Year Countdown 🎉
