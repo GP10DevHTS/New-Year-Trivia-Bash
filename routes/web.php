@@ -1,10 +1,9 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+use App\Livewire\Timer;
 
-Route::get('/', function () {
-    return view('welcome');
-});
+Route::get('/', Timer::class)->name('timer');
 
 Route::middleware([
     'auth:sanctum',
