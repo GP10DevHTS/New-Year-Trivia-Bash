@@ -42,11 +42,12 @@ class Timer extends Component
     {
         // Set the selected time zone and recalculate the time left
         $this->selectedTimeZone = $timeZone;
-        $this->calculateTimeLeft();
     }
 
     public function render()
     {
+        $this->calculateTimeLeft();
+
         return view('livewire.timer');
     }
 }
